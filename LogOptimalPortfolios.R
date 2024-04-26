@@ -27,6 +27,7 @@ ComputeLogOptimumDirchellete2Stocks = function(alpha1,alpha2, offset1, offset2){
   optim = optimize(function(b) Expected_Log_Profit(b, alpha1,alpha2, offset1,offset2), maximum = TRUE, interval = c(0,1))
   return(optim)
 }
+#Computes log optimal portfolio for dir(1,1) distribution with shifting parameters of 0.51,0.49.                   
 LogOptimalDist = ComputeLogOptimumDirchellete2Stocks(1,1,0.51,0.49)
 colors <- c("Stock 1" = "steelblue", "Stock 2" = "red",  "Log Optimal" = "green", "Close to Log Optimal" = 'black')
 randomStocks = rdirichlet(10000, c(1,1))
