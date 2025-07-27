@@ -4,9 +4,8 @@ This project implements and simulates the Universal Portfolio strategy, a discre
 
 📘 What is a Universal Portfolio? <br>
 Universal Portfolio's are a family of mathematical algorithms which asymptotically obtain the same growth exponent, to first order, as the best constantly rebalanced portfolio in hindsite. In this project we focus on the so called MU weighted Universal Portfolio. The algorithm distributes wealth over all possible portfolios, with respect to a given measure MU, and continuously rebalances towards those that perform better on the oberseved stock data. For a discrete time T, portfolios which have a strong perforomance on data up until T-1 are given more weight in the construction of the portfolio for time T. The Universal Portfolio is therefore a performance weighted algorithm. 
-causal 
-Key idea: <br>
 
+Key idea: <br>
 "Without assuming any statistical model, we can still construct a portfolio strategy that is nearly as good as the best fixed portfolio in hindsight."
 
 🧠 Core Concepts <br>
