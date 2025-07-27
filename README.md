@@ -1,5 +1,5 @@
-## Universal Portfolios 
-🔄 Universal Portfolio Simulation
+## MU Weighted Universal Portfolio Algorithm
+🔄 Universal Portfolio Simulation <br>
 This project implements and simulates the Universal Portfolio strategy, a model-free online portfolio selection method proposed by Thomas M. Cover. Unlike traditional strategies that rely on return prediction or optimization assumptions, the universal portfolio adapts to market behavior and asymptotically matches the performance of the best constant-rebalanced portfolio (CRP) in hindsight.
 
 📘 What is a Universal Portfolio?
