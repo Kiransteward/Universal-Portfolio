@@ -4,9 +4,7 @@ This project implements and simulates the Universal Portfolio strategy, a model-
 
 📘 What is a Universal Portfolio? <br>
 Universal Portfolio's are a family of mathematical algorthims which satisfy the following condition: 
-$$
-\lim_{n\to\infty}\sup_{x_{1}^{n}}\frac{1}{n}\log\left(\frac{S^{\ast}_{n}}{S_{n}}\right) = \lim_{n\to\infty} \sup_{x_{1}^{n}} W_{n}^{\ast}(x_{1}^{n})- W_{n}(x_{1}^{n}) = 0.
-$$
+$$\lim_{n\to\infty}\sup_{x_{1}^{n}}\frac{1}{n}\log\left(\frac{S^{\ast}_{n}}{S_{n}}\right) = \lim_{n\to\infty} \sup_{x_{1}^{n}} W_{n}^{\ast}(x_{1}^{n})- W_{n}(x_{1}^{n}) = 0.$$
 
 
 distributes wealth over all possible portfolios and continuously rebalances toward those that perform better. Over time, it achieves nearly the same exponential growth rate as the best fixed rebalanced portfolio chosen in hindsight.
